@@ -2,7 +2,6 @@ import hashlib
 import base58
 from ecdsa import SigningKey, SECP256k1
 
-
 # PARAMETERS
 network_prefix = '6f'     # testnet (if mainnet then '00')
 h_ripemd160 = hashlib.new('ripemd160')
