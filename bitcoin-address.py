@@ -9,6 +9,7 @@ compressed_prefix_even = '02'
 compressed_prefix_odd = '03'
 private_key_raw = "2bc7c746a3b554f2926bfd506a8345143faa884945ef75b3b332e6bdefc7eb41"
 
+
 # SigningKey object
 private_key = SigningKey.from_string(private_key_raw.decode('hex'), curve=SECP256k1)
 
